@@ -1,4 +1,9 @@
-def sum_nunber(*args)
+def sum_numbers(*args):
+    """
+    Returns the sum of all the input numbers.
+    If no arguments are passed, returns 0.
+    """
+
     total = sum(args)
     return total
-print(sum_nunbers(5,6,7))
+        
